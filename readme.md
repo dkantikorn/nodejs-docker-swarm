@@ -40,3 +40,10 @@
 ![Docker run in swarm cluster](document/images/run_swarm_cluster.png)
 
 ![Docker show swarm cluster](document/images/call_single_instance.png)
+
+## docker list all service
+![docker list all service](document/images/service_ls.png)
+
+![docker list all service specification](document/images/service_ls_spec.png)
+
+![docker service scale](document/images/service_scale.png)
