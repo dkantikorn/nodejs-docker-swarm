@@ -17,6 +17,14 @@
 - docker service create --replicas 3 --name demo-nodeswarm --publish 3000:3000 nodeswarm:1.0
 - curl http://localhost:3000
 
+## Create swarm with docker-compose file
+- docker stack deploy -c docker-compose.yml <container_name>
+- docker stack deploy -c docker-compose.yml nodeswarm:1.0
+
+## Remove swarm node / swarm manager
+- docker swarm leave --force
+- docker node ls
+
 ## Docker command
 - docker images
 - docker rmi <image_id>
